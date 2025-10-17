@@ -1,0 +1,48 @@
+ body{
+    margin-left: 3em;
+    font-size: 2em;
+
+ }
+img {
+    img {
+  display: block;           
+  max-width: 600px;       
+  width: 100%;             
+  height: auto;           
+  border: 2px solid gray;
+  border-radius: 3rem;
+}
+   
+   
+}
+h1 {
+    font-family: sans-serif ;
+    font-size: 4em;
+    font-weight: bold;
+}
+#op {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 80;
+    font-size: 2em ;
+}
+ section {
+ border: 2px solid #fbf3d1;
+    border-radius: 1rem ;
+    background: #fbf3d1;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 3em;
+    font-weight: bold;
+    color: lightslategrey;
+}
+.pre{
+    list-style: circle;
+}
+
+     h3, h4, h5{
+         font-size: 3em;
+         font-weight: bold;
+         color: lightslategrey;
+     }
