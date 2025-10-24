@@ -1,67 +1,70 @@
-body {
-    font-size: 16px; 
-    font-family: "young serif", "serif", "outfit";
-    background-color: bisque;
+    body {
+        font-size: 16px; 
+        font-family: "young serif", "serif", "outfit";
+        background-color: bisque;
 
 
-}
-main{
-    background-color: aliceblue;
-    max-width: 620px;
-    margin: 0 auto;
-    padding: 20px;
+    }
+    main{
+        background-color: aliceblue;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: 20px;
 
-}
- #w1 {
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: left;
-    margin-bottom: 5px;
-    margin-left: 5px;
+    }
+    #w1 {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: left;
+        margin-bottom: 5px;
+        margin-left: 5px;
 
- }
- .recipe-photo {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto; 
-}
- #ww {
-    margin-left: 10px;
-    border: 4px solid hsl(330, 100%, 88%);
-    background-color: hsl(330, 100%, 88%);;
+    }
+    .recipe-photo {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    }
+    #ww {
+        margin-left: 10px;
+        border: 4px solid hsl(330, 100%, 88%);
+        background-color: hsl(330, 100%, 88%);;
 
- }
-    #w3 {
-        font-size: 18px;
-        font-weight: bold;
+    }
+        #w3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 4px;
+        color: hsl(332, 51%, 32%);
+        }
+        
+        .f1  {
+            color: hsl(14,45%, 32%);
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+
+    #hv {
+        margin: 50%;
+        text-align: center;
+    }
+    .nutrition-table {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px 30px;
+        max-width: 400px;
         margin-top: 10px;
-        margin-left: 4px;
-     color: hsl(332, 51%, 32%);
+        justify-content: space-between;
+        padding: 5px 0;
     }
-    
-    .f1  {
-        color: hsl(14,45%, 32%);
-        font-weight: bold;
-        font-size: 18px;
-
+    .attribution {
+        font-size: 12px;
+        text-align: center;
     }
-
- #hv {
-    margin: 50%;
-     text-align: center;
-}
-.nutrition-table {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 10px 30px;
-    max-width: 400px;
-    margin-top: 10px;
-     justify-content: space-between;
-    padding: 5px 0;
-}
-.attribution {
-    font-size: 12px;
-    text-align: center;
-}
+    #tt:hover {
+        color: darkmagenta;
+    }
