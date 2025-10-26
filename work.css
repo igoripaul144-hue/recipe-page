@@ -14,17 +14,17 @@
     }
     #w1 {
         font-size: 20px;
-        font-weight: bolder;
+   
         text-align: left;
         margin-bottom: 5px;
-        margin-left: 5px;
+       
 
     }
     .recipe-photo {
     max-width: 500px;
     width: 100%;
     height: auto;
-    display: block;
+    display: ;
     margin: 0 auto; 
     }
     #ww {
